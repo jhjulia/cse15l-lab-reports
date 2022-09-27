@@ -1,2 +1,2 @@
 # Hello World
-**It was *nice* to see you again.** *My dear!*
+**It was *nice* to see you again.** *My friend!*
