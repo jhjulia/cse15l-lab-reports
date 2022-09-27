@@ -1,1 +1,1 @@
-![image](screenshot.png)
+![image](https://raw.githubusercontent.com/jhjulia/cse15l-lab-reports/main/screenshot.png)
