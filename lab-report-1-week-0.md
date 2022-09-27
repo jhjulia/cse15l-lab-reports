@@ -1,1 +1,1 @@
-![image](https://github.com/jhjulia/cs**e15l-lab-reports/blob/main/Screenshot1.png)**
+![image](/Users/jihyxn_n/Desktop/GitHub/cse15l-lab-reports/Screenshot1.png)
