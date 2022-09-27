@@ -1,1 +1,1 @@
-![image](tree.jpeg)
+![image](screenshot.png)
