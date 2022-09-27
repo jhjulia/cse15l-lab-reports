@@ -1,1 +1,1 @@
-![image](/Users/jihyxn_n/Desktop/GitHub/cse15l-lab-reports/Screenshot1.png)
+![image]<img width="859" alt="Screenshot1" src="https://user-images.githubusercontent.com/114450772/192442515-f57b4c08-ba17-4905-9367-ea4108a28b18.png">
