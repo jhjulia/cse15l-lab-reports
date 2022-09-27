@@ -1,2 +1,2 @@
-![image](screenshot.png)
+![image](screenshot.jpg)
 
