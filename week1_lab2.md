@@ -2,7 +2,7 @@
 
 
 ### **1. Installing VScode**
-![Image](1screenshot1.png)
+![Image](1screenshot1.png width="600" height="300")
 > * Visit https://code.visualstudio.com/.
 > * Click the downlad buttton and install VScode.    
 
