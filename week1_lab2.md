@@ -1,10 +1,11 @@
 ## CSE15L Lab 1: Remote Access
----
+
 
 ### Installing VScode
 ![Image](1screenshot1.png)
 > * Visit https://code.visualstudio.com/.
 > * Click the downlad buttton and install VScode.
+
 ---
 
 ### Remotely Connecting
@@ -13,6 +14,7 @@
 > * Type ssh cs15lfa22zz@ieng6.ucsd.edu, but replace zz with your own course-specific account letters.
 > * Type your password for course-specific account
 > * Wait for a few seconds to let your computer (client) connect to a computer in the CSE basement (server).
+
 ---
 
 ### Trying Some Commands
