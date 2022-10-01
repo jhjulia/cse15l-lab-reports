@@ -2,7 +2,7 @@
 
 
 ### **1. Installing VScode**
-![Image](1screenshot1.png)
+![Image](1screenshot1.png =400x400)
 > * Visit https://code.visualstudio.com/.
 > * Click the downlad buttton and install VScode.    
 
@@ -10,7 +10,7 @@
 
 
 ### **2. Remotely Connecting**
-![image](1screenshot2.png)
+![image](1screenshot2.png =400x400)
 
 > * Type ssh cs15lfa22zz@ieng6.ucsd.edu, but replace zz with your own course-specific account letters.
 > * Type the password for course-specific account
@@ -20,8 +20,8 @@
 
 
 ### **3. Trying Some Commands**
-![image](1screenshot3_1.png)
-![image](1screenshot3_2.png)
+![image](1screenshot3_1.png =400x400)
+![image](1screenshot3_2.png =400x400)
 
 > * Type and run the commands of “cd ~” , “cd” , “ls -lat”, “ls -a”, “cat /home/linux/ieng6/cs15lfa22/public/hello.txt”, "cp /home/linux/ieng6/cs15lfa22/public/hello.txt ~/", "pwd", "mkdir test", "ls", "cp".
 > * I posted two pictures, first from own computer after ssh-ing, and second from the computer on the CSE basement after ssh-ing. I also should have take a screenshot for the commands running on my computer (before ssh-ing). **At this time, I had misunderstood the lab prompt by understainding that I need to take a screenshot of running the commands on the basement computer.** After I understood the lab prompt correctly, I already finished the part 7, so I don't know how to undo and disconnect my computer to the server. However, I have run the commands on my computer (before ssh-ing), and seen some of the commands got an errors.     
@@ -30,7 +30,7 @@
 
 
 ### **4. Moving Files with scp**
-![image](1screenshot4.png)
+![image](1screenshot4.png =400x400)
 
 > * Create a file called WhereAmI.java and write the code above using "javac WhereAmI.java" and "java WhereAmI" commands.
 > * Using "scp" to work remotely by copying files back and forth between the computers.
@@ -40,7 +40,7 @@
 
 
 ### **5. Setting an SSH Key**
-![image](1screenshot5.png)
+![image](1screenshot5.png =400x400)
 
 > * Not to type our password everytime we log in or run scp, we have to use ssh keys.
 > * Type "ssh-keygen". Then, enter file to save the key (just tap enter to easily enter the file to save the key) and enter any passphrase you want.
@@ -53,7 +53,7 @@
 
 
 ### **6. Optimizing Remote Running**
-![image](1screenshot6.png)
+![image](1screenshot6.png =400x400)
 
 > * Use "ssh cs15lfa22zz@ieng6.ucsd.edu "ls" and "cp WhereAmI.java OtherMain.java; javac OtherMain.java; java WhereAmI" to check the remote server can run the "WhereAmI.java" file. 
 > * This worked for my computer.      
