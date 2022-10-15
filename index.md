@@ -4,4 +4,4 @@
 
 * [Lab Report 1](week1_lab1.html)
 
-* [Lab Report 3](week4_lab3.html)
+* [Lab Report 3](week3_lab3.md)
