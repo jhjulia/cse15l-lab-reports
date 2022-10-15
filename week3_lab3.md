@@ -14,4 +14,17 @@
 > *
 > *
 
+---
 ### **Part 2**
+
+![image](Screenshot3.4)
+> *
+> *
+> *
+> *
+
+![image](Screenshot3.5)
+> *
+> *
+> *
+> *
