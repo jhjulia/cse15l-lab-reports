@@ -34,7 +34,9 @@ class Handler implements URLHandler {
 > * For the base window, the method "getPath()" and "String.format() are used. "getPath()" method returns the path of "url", and "String.format()" method help show the return value on the website. At this time, the url browser shows the empty array. 
 > * One of the values for the relevant arguments to "getPath()" is the argument "/." Using "getPath" method, we can notice if the path of "url" has "/". Since the path of "url" was equals to "/", the first window shows the empty ArrayList called "search." 
 > * If the value of "/" changes to other String value, the code would work and the browser shows the same first window only if the path of "url" has that exact String value.
+
 ---
+
 
 
 
@@ -72,6 +74,8 @@ class Handler implements URLHandler {
 "getPath()" and "getQeury()." "getPath" method is the method returning the path of url as I said above, and "getQuery()" is for returning the query of url. 
 > * The value of the relevant argument to "getPath()" and "getQeury()" methods is "/add." Since we add a new String value using the path, the code returns the String value on the browser using "getQuery" method if the "url" path from the parameter contains the new String value along the String "/add", checked by "getPath()" method.
 > * If the value "/add" changes to another String value of argument, the code would work if we type the exact value in the search tap. 
+
+
 ---
 
 
@@ -110,12 +114,12 @@ class Handler implements URLHandler {
 "getQuery()" to get the path and query for the "url."
 > * The value of the relevant argument to the methods is "search." In this code, we check the path of "url" from the parameter of handleRequest(URL url) method using "getPath()" to see if it contains the String "search." If yes, we also check if the "parameters" that we are looking for is in the query of "url". If the query of "url" contains the "parameters", the code returns the value of parameter that we searched. For example, if I want to search the String value "banana" after I added the list of Strings "apple/banana/mango," I can search "banana" using "localhost:4000/search=?banana".
 > * If the value changes to another String value, the code should work if we type the changed value in the search tap.
+
+
+
 ---
 
 
-
-
----
 ### **Part 2**
 
 ```
@@ -147,10 +151,10 @@ class Handler implements URLHandler {
 > * The symptom was AssertionError because the code removes all the numbers equal to the lowest number when it should just leaves out only one. **(I got the actual assertion error before I got the another assertion error shown in the screenshot.)** 
 > * The bug was on the line 8 to 11 in the averageWithoutLowest(double[] arr) method above. Since the original code removes all the values same as the lowest, I just added all the elements in the array and divide the sum by arr.length - 1 after I subtract the lowest number from the sum.
 > * Since the symptom shows that my assertion on the test is wrong because the bug causes the wrong actual value by removing more than one value. 
+
+
+
 ---
-
-
-
 
 
 ```
