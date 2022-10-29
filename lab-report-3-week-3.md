@@ -119,7 +119,6 @@ class Handler implements URLHandler {
 ### **Part 2**
 
 ```
-![image](Screenshot3.4.png)
   static double averageWithoutLowest(double[] arr) {
     if(arr.length < 2) { return 0.0; }
     double lowest = arr[0];
@@ -143,6 +142,7 @@ class Handler implements URLHandler {
     assertEquals(exp, actual, 0.001);
   }
 ```
+![image](Screenshot3.4.png)
 > * The failure-inducing input was the test code only having one element in the array.
 > * The symptom was AssertionError because the code removes all the numbers equal to the lowest number when it should just leaves out only one. **(I got the actual assertion error before I got the another assertion error shown in the screenshot.)** 
 > * The bug was on the line 38 to 41 in the screenshot. Since the original code removes all the values same as the lowest, I just added all the elements in the array and divide the sum by arr.length - 1 after I subtract the lowest number from the sum.
@@ -152,7 +152,7 @@ class Handler implements URLHandler {
 
 
 
-![image](Screenshot3.5.png)
+
 ```
 static List<String> merge(List<String> list1, List<String> list2) {
     List<String> result = new ArrayList<>();
@@ -188,6 +188,7 @@ public void testMerge(){
     assertEquals(output, ListExamples.merge(list1, list2));
 }
 ```
+![image](Screenshot3.5.png)
 > * The failure-inducing input was the test code having different output order from the actual output.
 > * The sympton was java.lang.OutOfMemoryError, which occurs when java heap has limited memory at that moment.
 > * In line 57, we need to increment index2 by index2++ because the code never stop under the condition of index2 < list2.size().
