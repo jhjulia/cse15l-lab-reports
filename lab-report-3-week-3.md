@@ -79,7 +79,6 @@ class Handler implements URLHandler {
 ---
 
 
-
 ![image](Screenshot3.3.png)
 ```
 class Handler implements URLHandler {
