@@ -189,7 +189,7 @@ public void testMerge(){
 }
 ```
 ![image](Screenshot3.5.png)
-> * For the "merge() method" in ListExamples.java, the failure-inducing input in testMerge() in ListsTests.java was the test code having different output order from the actual output and the test code having no elements in list2.
+> * For the "merge() method" in ListExamples.java, the failure-inducing inputs in testMerge() in ListsTests.java are the test code having different output order from the actual output and the test code having no elements in list2.
 > * The sympton was java.lang.OutOfMemoryError, which occurs when java heap has limited memory at that moment.
 > * In line 21 in the merge() methodcode above, we need to increment index2 by index2++ because the code never stop under the condition of index2 < list2.size().
 > * Since the bug produces the non-stopping code, it causes the symptom of java.lang.OutOfMemoryError. 
