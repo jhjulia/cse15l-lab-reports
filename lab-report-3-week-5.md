@@ -1071,7 +1071,7 @@ technical/plos/pmed.0020275.txt:0
 technical/plos/pmed.0020278.txt:0
 technical/plos/pmed.0020281.txt:0
 ```
-This command line counts the number of line containing the string "11" for each file/directory from the path **/*/**. This command is useful to check the count of the lines that matches the given string/pattern for each file.
+This command line counts the number of line containing the string "11" for each file/directory from the path \*/\*/\*. This command is useful to check the count of the lines that matches the given string/pattern for each file.
 
 ---
 
