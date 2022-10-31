@@ -21,7 +21,7 @@ Output:
 ```
 97
 ```
-This command line prints out the number of lines in */*/About_LSC/Progress_report.txt having the string "LSC". This command line is useful to check the number of lines that matches the given string in a specific file.
+This command line prints out the number of lines in \**/\**/About_LSC/Progress_report.txt having the string "LSC". This command line is useful to check the number of lines that matches the given string in a specific file.
 
 **Example3)**
 ```
@@ -1748,7 +1748,7 @@ United States
 United States
 United States
 ```
-This command line only prints the string "United States" part in a matching line in */*/*/LegalServCorp_v_VelazquezDissent.txt, where grep prints the entire line which contains the given string by default. This command line is useful to see only the matching part of given string.
+This command line only prints the string "United States" part in a matching line in \**/\**/\**/LegalServCorp_v_VelazquezDissent.txt, where grep prints the entire line which contains the given string by default. This command line is useful to see only the matching part of given string.
 ---
 
 ### **3. Command Option -A n for grep**
@@ -1819,6 +1819,6 @@ technical/911report/chapter-10.txt-                Islamist terrorism became a d
 technical/911report/chapter-10.txt-        
 technical/911report/chapter-10.txt-   
 ```
-This command line prints the line 600 containing the string "victories" and the lines after the searched line in */911report/*. This command line is useful to see the context containing the line that matches the given string in which specific file/directory.
+This command line prints the line 600 containing the string "victories" and the lines after the searched line in \**/911report/\**. This command line is useful to see the context containing the line that matches the given string in which specific file/directory.
 
 
