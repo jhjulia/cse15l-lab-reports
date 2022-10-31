@@ -1749,6 +1749,7 @@ United States
 United States
 ```
 This command line only prints the string "United States" part in a matching line in \**/\**/*/LegalServCorp_v_VelazquezDissent.txt, where grep prints the entire line which contains the given string by default. This command line is useful to see only the matching part of given string.
+
 ---
 
 ### **3. Command Option -A n for grep**
