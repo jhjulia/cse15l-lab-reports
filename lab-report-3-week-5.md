@@ -1,8 +1,9 @@
 ## CSE15L Lab 3: Week 3 Lab Report
 
-### **1. Command Option -c**
+### **1. Command Option -c for grep**
+> * Command option -c is to print a count of the lines that matches the given string/pattern.
 
-Example 1)
+**Example 1)**
 ```
 jihyxn_n@bangjihcBookAir docsearch % grep -c "b" technical/biomed/rr37.txt
 ```
@@ -10,10 +11,9 @@ Output:
 ```
 179
 ```
-> *
-> *
+This command line prints out the number of lines in technical/biomed/rr37.txt having the string "b". This command line is useful to check the number of lines that matches the given string in a specific file.
 
-Example 2)
+**Example 2)**
 ```
 jihyxn_n@bangjihcBookAir docsearch % grep -c "LSC" */*/About_LSC/Progress_report.txt
 ```
@@ -21,10 +21,9 @@ Output:
 ```
 97
 ```
-> *
-> *
+This command line prints out the number of lines in */*/About_LSC/Progress_report.txt having the string "LSC". This command line is useful to check the number of lines that matches the given string in a specific file.
 
-Example3)
+**Example3)**
 ```
 jihyxn_n@bangjihcBookAir docsearch % grep -c "11" */*/*
 ```
@@ -1072,13 +1071,13 @@ technical/plos/pmed.0020275.txt:0
 technical/plos/pmed.0020278.txt:0
 technical/plos/pmed.0020281.txt:0
 ```
-> *
-> *
+This command line counts the number of line containing the string "11" for each file/directory from the path */*/*. This command is useful to check the count of the lines that matches the given string/pattern for each file. 
 ---
 
-### **2. Command Option -o**
+### **2. Command Option -o for grep**
+> * Command option -o is to only print the matched string/pattern in a mathcing line.
 
-Example 1)
+**Example 1)**
 ```
 jihyxn_n@bangjihcBookAir docsearch % grep -o "flight" technical/911report/chapter-1.txt
 ```
@@ -1201,10 +1200,9 @@ flight
 flight
 flight
 ```
-> *
-> *
+This command line only prints the string "flight" part in a matching line in technical/911report/chapter-1.txt, where grep prints the entire line which contains the given string by default. This command line is useful to see only the matching part of given string. 
 
-Example2)
+**Example2)**
 ```
 jihyxn_n@bangjihcBookAir docsearch % grep -o "background" technical/biomed/*
 ```
@@ -1737,10 +1735,9 @@ technical/biomed/gb-2003-4-5-r32.txt:background
 technical/biomed/gb-2003-4-6-r37.txt:background
 technical/biomed/gb-2003-4-6-r41.txt:background
 ```
-> *
-> *
+This command line only prints the string "background" part in a matching line in technical/biomed/*, where grep prints the entire line which contains the given string by default. This command line is useful to see only the matching part of given string.
 
-Example 3)
+**Example 3)**
 ```
 jihyxn_n@bangjihcBookAir docsearch % grep -o "United States" */*/*/LegalServCorp_v_VelazquezDissent.txt
 ```
@@ -1750,13 +1747,13 @@ United States
 United States
 United States
 ```
-> *
-> *
+This command line only prints the string "United States" part in a matching line in */*/*/LegalServCorp_v_VelazquezDissent.txt, where grep prints the entire line which contains the given string by default. This command line is useful to see only the matching part of given string.
 ---
 
-### **3. Command Option -A**
+### **3. Command Option -A n for grep**
+> * Command option -A n is to print searched line and the lines after the searched line given string/pattern.
 
-Example 1)
+**Example 1)**
 ```
 jihyxn_n@bangjihcBookAir docsearch % grep -A106 Thomas technical/9
 11report/preface.txt
@@ -1768,10 +1765,9 @@ Output:
         
     
 ```
->*
->*
+The command line prints the line 106 containing the string "Thomas" and the lines after the searched line in technical/911report/preface.txt. This command line is useful to see the context containing the given string in a specific file/directory.
 
-Example 2)
+**Example 2)**
 ```
 jihyxn_n@bangjihcBookAir docsearch % grep -A5 legal */*/*/Boone_legal_service.txt
 ```
@@ -1809,10 +1805,9 @@ Levitt, the law professor who oversaw the program, said via
 e-mail.
 Olson said Schroeder must prove Prairie Meadows is the primary
 ```
-> *
-> *
+This command line prints the line 5 containing the string "legal" and the lines after the searched line in */*/*/Boone_legal_service.txt. This command line is useful to see the context containing the line that matches the given string in a specific file/directory.
 
-Example 3)
+**Example 3)**
 ```
 jihyxn_n@bangjihcBookAir docsearch % grep -A600 victories */911report/*
 ```
@@ -1823,7 +1818,6 @@ technical/911report/chapter-10.txt-                Islamist terrorism became a d
 technical/911report/chapter-10.txt-        
 technical/911report/chapter-10.txt-   
 ```
-> *
-> *
+This command line prints the line 600 containing the string "victories" and the lines after the searched line in */911report/*. This command line is useful to see the context containing the line that matches the given string in which specific file/directory.
 
 
