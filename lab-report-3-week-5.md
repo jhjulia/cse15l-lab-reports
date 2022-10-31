@@ -21,7 +21,7 @@ Output:
 ```
 97
 ```
-This command line prints out the number of lines in \**/\**/About_LSC/Progress_report.txt having the string "LSC". This command line is useful to check the number of lines that matches the given string in a specific file.
+This command line prints out the number of lines in \**/*/About_LSC/Progress_report.txt having the string "LSC". This command line is useful to check the number of lines that matches the given string in a specific file.
 
 **Example3)**
 ```
@@ -1071,7 +1071,7 @@ technical/plos/pmed.0020275.txt:0
 technical/plos/pmed.0020278.txt:0
 technical/plos/pmed.0020281.txt:0
 ```
-This command line counts the number of line containing the string "11" for each file/directory from the path \**/\**/\**. This command is useful to check the count of the lines that matches the given string/pattern for each file.
+This command line counts the number of line containing the string "11" for each file/directory from the path \**/\**/*. This command is useful to check the count of the lines that matches the given string/pattern for each file.
 
 ---
 
