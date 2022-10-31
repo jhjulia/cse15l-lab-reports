@@ -1748,7 +1748,7 @@ United States
 United States
 United States
 ```
-This command line only prints the string "United States" part in a matching line in \**/\**/\**/LegalServCorp_v_VelazquezDissent.txt, where grep prints the entire line which contains the given string by default. This command line is useful to see only the matching part of given string.
+This command line only prints the string "United States" part in a matching line in \**/\**/*/LegalServCorp_v_VelazquezDissent.txt, where grep prints the entire line which contains the given string by default. This command line is useful to see only the matching part of given string.
 ---
 
 ### **3. Command Option -A n for grep**
@@ -1806,7 +1806,7 @@ Levitt, the law professor who oversaw the program, said via
 e-mail.
 Olson said Schroeder must prove Prairie Meadows is the primary
 ```
-This command line prints the line 5 containing the string "legal" and the lines after the searched line in */*/*/Boone_legal_service.txt. This command line is useful to see the context containing the line that matches the given string in a specific file/directory.
+This command line prints the line 5 containing the string "legal" and the lines after the searched line in \**/\**/*/Boone_legal_service.txt. This command line is useful to see the context containing the line that matches the given string in a specific file/directory.
 
 **Example 3)**
 ```
