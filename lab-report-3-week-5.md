@@ -11,7 +11,7 @@ Output:
 ```
 179
 ```
-This command line prints out the number of lines in technical/biomed/rr37.txt having the string "b". This command line is useful to check the number of lines that matches the given string in a specific file.
+This command line prints out the count of lines in technical/biomed/rr37.txt having the string "b". This command line is useful to check the count of lines that matches the given string in a specific file.
 
 **Example 2)**
 ```
