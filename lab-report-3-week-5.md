@@ -1,4 +1,4 @@
-## CSE15L Lab 3: Week 3 Lab Report
+## CSE15L Lab 3: Week 5 Lab Report
 
 ### **1. Command Option -c for grep**
 > * Command option -c is to print a count of the lines that matches the given string/pattern.
