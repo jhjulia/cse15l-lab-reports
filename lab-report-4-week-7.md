@@ -48,7 +48,7 @@ To give the shortest sequence of vim commands for changing the name of the "star
 
 
 ** Questions **
-> * I would prefer to the second style. Since I am running the file remotely, I may not able to access the code file directly. If I edit the file in vim, I don't need to directly access the file, I owuld prefer the second style.
+> * I would prefer to the second style. Since I am running the file remotely, I may not able to access the code file directly. If I edit the file in vim, I don't need to directly access the file, so I would prefer to the second style.
 > * If I have to make a big change in the long file, I would prefer to using the first style. In the first one, it is easier to move the cursor than in the second one because I can easily move the cursor in VS code rather than in vim. Thus, in the situation that I need to move the cursor frequently to make many edits and write more codes, I would prefer to the fisrt style.
 
 
