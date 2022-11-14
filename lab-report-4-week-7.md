@@ -31,7 +31,7 @@ To give the shortest sequence of vim commands for changing the name of the "star
 > * Type ```<.>``` to repeat the last change.  
 
 ![image](Screenshot410.png)
-> * Type ```<esc><n>``` to exit the insert mode and find the next "start", but in this step, there is no more "start" word.  
+> * Type ```<esc><n>``` to exit the insert mode and find the next "start", but in this step, there is no more "start".
 
 ![image](Screenshot411.png)
 > * Type ```<:><w><q>``` to save the changes and exit vim.  
