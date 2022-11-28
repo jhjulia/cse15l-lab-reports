@@ -26,7 +26,9 @@ java -cp $CPATH org.junit.runner.JUnitCore TestListExamples
 ### Student submission 2:
 ![image](Screenshot52.png)
 > * Student submission of https://github.com/ucsd-cse15l-f22/list-methods-compile-error, which has a syntax error of a missing semicolon.
-
+> * In grade.sh, ```set -e``` allows the termial to show the error if it exists in the student submission. Then, ```CPATH=``` stores the class path as a variable, and ```rm -rf student-submission``` removes the student-submission directory. After that, ```git clone $1``` clones the repository of the student-submission in a new directory. Then, ```cp``` copies TestListExamples.java in the student-submission, and ```cp -r``` copies the student-submission to lib. After that, ```cd``` changes the current working directory to the student-submission. Finally, ```javac -cp``` compiles every java files in ```$CPATH```, and ```java -cp``` runs TestListExamples in ```$CPATH``` and print out the error saying there is a syntax error of a missing semicolon in ```result.add(0, s)```. 
+> * ```set -e``` returns 1, ```CPATH=``` returns 1, ```rm -rf``` returns 1, ```git clone $1``` returns 1, ```cp``` returns 1, ```cp -r``` returns 1, ```cd``` returns 1, ```javac -cp``` returns 1, and ```java -cp``` returns 0. 
+> * Therefore, every commands is working, except for the last line of ```java -cp $CPATH org.junit.runner.JUnitCore TestListExamples``` because there is an compile error in the code file.
 <br/>
 <br/>
 
