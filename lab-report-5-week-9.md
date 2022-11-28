@@ -12,8 +12,8 @@ cd student-submission
 
 javac -cp $CPATH *.java
 java -cp $CPATH org.junit.runner.JUnitCore TestListExamples
-```
-\n
+```  
+
 
 
 ![image](Screenshot51.png)
