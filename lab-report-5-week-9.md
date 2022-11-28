@@ -13,7 +13,9 @@ cd student-submission
 javac -cp $CPATH *.java
 java -cp $CPATH org.junit.runner.JUnitCore TestListExamples
 ```
-  
+\n
+\n
+
 ![image](Screenshot51.png)
 > * Student submission of https://github.com/ucsd-cse15l-f22/list-methods-lab3, which has the same code as the starter from lab 3.
 
