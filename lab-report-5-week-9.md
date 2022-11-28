@@ -15,17 +15,17 @@ java -cp $CPATH org.junit.runner.JUnitCore TestListExamples
 ```
 
 ---
-### Student submission 1
+### Student submission 1:
 ![image](Screenshot51.png)
-> * Student submission of https://github.com/ucsd-cse15l-f22/list-methods-lab3, which has the same code as the starter from lab 3.
-  
+> * Student submission of https://github.com/ucsd-cse15l-f22/list-methods-lab3, which has the same code as the starter from lab 3.   
 
-### Student submission 2
+### Student submission 2:
 ![image](Screenshot52.png)
-> * Student submission of https://github.com/ucsd-cse15l-f22/list-methods-compile-error, which has a syntax error of a missing semicolon.
-  
-  
-### Student submission 3
+> * Student submission of https://github.com/ucsd-cse15l-f22/list-methods-compile-error, which has a syntax error of a missing semicolon.   
+
+### Student submission 3:
 ![image](Screenshot53.png)
-> * Student submission of https://github.com/ucsd-cse15l-f22/list-methods-signature, which has the types for the arguments of ```filter``` in the wrong order, so it does not match the expected behavior.
+> * Student submission of https://github.com/ucsd-cse15l-f22/list-methods-signature, which has the types for the arguments of ```filter``` in the wrong order, so it does not match the expected behavior.  
+
+
 
